@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMJAD-4LI 3D STOP WATCH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="particles"></div>
+        <div class="light-reflection"></div>
+    </div>
+    
+    <div class="container">
+        <div class="watch-card">
+            <h1 class="title">ALI 3D STOP WATCH</h1>
+            
+            <div class="display-panel">
+                <div class="display-screen">
+                    <div class="time-group">
+                        <span class="time-unit" id="hours">00</span>
+                        <span class="label">HOURS</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="time-group">
+                        <span class="time-unit" id="minutes">00</span>
+                        <span class="label">MINUTES</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="time-group">
+                        <span class="time-unit" id="seconds">00</span>
+                        <span class="label">SECONDS</span>
+                    </div>
+                    <span class="decimal">.</span>
+                    <div class="time-group">
+                        <span class="time-unit" id="milliseconds">00</span>
+                        <span class="label">MILLISECONDS</span>
+                    </div>
+                </div>
+                <div class="display-reflection"></div>
+            </div>
+            
+            <div class="buttons-container">
+                <button class="btn start-btn" id="startBtn">
+                    <span class="btn-text">START</span>
+                    <div class="btn-shine"></div>
+                </button>
+                <button class="btn stop-btn" id="stopBtn">
+                    <span class="btn-text">STOP</span>
+                    <div class="btn-shine"></div>
+                </button>
+                <button class="btn reset-btn" id="resetBtn">
+                    <span class="btn-text">RESET</span>
+                    <div class="btn-shine"></div>
+                </button>
+            </div>
+            
+            <div class="card-glow"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
